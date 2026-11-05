@@ -1,4 +1,4 @@
 member,proposal_role,verified_completed_evidence,status,next_evidence_needed
 Nathan Choke,DRA reproduction and query logging,Directed Gemini selection and AI-assisted eight-attempt manual pilot; evidence/pilot and logs/dra_style_pilot.jsonl,AI-assisted pilot recorded; official benchmarking pending,Review records and complete original benchmark scope
 Philip Guan,Defense implementation and configuration,Proposal lists ownership only,completion not verified,Member-authored config or commit and defense review
-William Zhang,Scoring pipeline and benign controls,Proposal lists ownership only,completion not verified,Member-authored rubric or control set and scoring audit
+William Zhang,Scoring pipeline and benign controls,"Drafted rubric, 20 benign controls and scoring scripts (AI-assisted, evidence/scoring/); independently scored the 8 pilot attempts in scores_wjz.csv",completion not verified,Second member's independent scores on the same 8 rows; agreement and adjudication; team review of rubric

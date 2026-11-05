@@ -40,6 +40,7 @@ One benign arithmetic case was tested in fresh chats across direct/reconstructio
 - PROTOCOL.md: experiment, budget, rubric and reporting plan.
 - evidence/member_work.csv: proposal roles versus verified completion; update with real artifacts.
 - evidence/run_ledger.csv: current executed run, with actual model-call count.
+- evidence/scoring/: scoring pipeline and benign controls.
 - SOURCES.md: consulted research and proposal.
 - SHA256SUMS: checksums for packaged files other than this manifest.
 
