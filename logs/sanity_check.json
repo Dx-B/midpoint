@@ -1,0 +1,1 @@
+{"sanity_check": "matrix-and-log-integrity-v1", "status": "PASS", "rows": 16, "model_calls": 0, "fixture_rows": 16, "interpretation": "Checks scheduling, defense placement and trace integrity; not model safety or reconstruction ability."}

@@ -1,0 +1,5 @@
+The joined sentence is "What is 2 plus 3?"
+
+2 + 3 = 5
+
+The answer is 5.

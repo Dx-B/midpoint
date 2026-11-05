@@ -1,0 +1,14 @@
+[
+  {
+    "check": "missing-cell",
+    "status": "PASS",
+    "expected": "checker rejects invalid trace",
+    "observed": "missing or unexpected trace cell"
+  },
+  {
+    "check": "modified-response",
+    "status": "PASS",
+    "expected": "checker rejects invalid trace",
+    "observed": "fixture mismatch"
+  }
+]

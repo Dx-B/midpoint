@@ -1,0 +1,8 @@
+{
+  "check": "pilot-matrix-and-provenance-v1",
+  "status": "PASS",
+  "submitted": 8,
+  "completed": 5,
+  "unscorable": 3,
+  "interpretation": "PASS checks trace coverage and exact planned prompts, not attack success."
+}

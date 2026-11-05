@@ -1,0 +1,9 @@
+{
+  "check": "manual-smoke-matrix-v1",
+  "rows": 4,
+  "correct": 4,
+  "refusals": 0,
+  "case_count": 1,
+  "status": "PASS",
+  "limitation": "initial AI-assisted review, not independent safety scoring"
+}
