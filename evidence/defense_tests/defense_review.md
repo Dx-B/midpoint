@@ -2,7 +2,7 @@
 
 **Assigned owner** — Philip Guan (pvg17)  
 **Draft date** — November 5, 2026  
-**Status** — Offline configuration verified by Codex. Philip’s review and team approval are pending.
+**Status** — Philip reviewed the defense configuration and signed off with the line-ending caveat below. Team approval is pending.
 
 ## Configuration
 
@@ -31,8 +31,9 @@ The checks establish that the prompt builder applies the intended configuration.
 
 Before signing, run the builder on one direct pair and one disguised pair. Check that each off file matches its base prompt and each on file contains the exact candidate, a blank line, and that same base prompt. Record which pairs you reviewed and what you observed.
 
-- **Pairs checked and result** — Pending Philip’s entry.
-- **Reviewer and date** — Pending Philip’s sign-off.
+- **Step 5 (Windows Git checkout)** — pilot check passed, full verifier failed at the arithmetic check on line endings only, no files changed. Billy’s checkout fails at the same check, with the opposite line-ending pattern.
+- **Pairs checked and result** — In my Windows Git checkout at `C:\Users\phili\Downloads\midpoint`, `direct-off.txt` matched `prompt-01.txt` byte for byte, and `disguised-off.txt` matched `prompt-02.txt` byte for byte. The archived `prompt-01.txt` through `prompt-04.txt` files use CRLF in this checkout. The defense-on outputs had different raw SHA-256 hashes from `prompt-03.txt` and `prompt-04.txt` because the script inserts LF for the blank-line separator. Both defense-on pairs matched after normalizing line endings.
+- **Reviewer and date** — Philip Guan, November 5, 2026. Signed off with the line-ending caveat above.
 - **Team freeze** — Pending. Record the approved wording and hash, reviewers, and approval date before final testing.
 
 Codex provided implementation guidance, performed the offline checks recorded above, and drafted this review.
