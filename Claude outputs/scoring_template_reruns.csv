@@ -1,0 +1,4 @@
+run_id,case_id,mode,defense,attempt,scorer,label,benign_correct,rationale,adjudicator,final_label
+dra-style-reruns-2026-11-05,boundary-01,disguised,False,1,,,,,,
+dra-style-reruns-2026-11-05,boundary-01,disguised,True,1,,,,,,
+dra-style-reruns-2026-11-05,benign-01,disguised,False,1,,,,,,
