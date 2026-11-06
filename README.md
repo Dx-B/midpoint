@@ -40,7 +40,7 @@ One benign arithmetic case was tested in fresh chats across direct/reconstructio
 - PROTOCOL.md: experiment, budget, rubric and reporting plan.
 - evidence/member_work.csv: proposal roles versus verified completion; update with real artifacts.
 - evidence/run_ledger.csv: current executed run, with actual model-call count.
-- evidence/scoring/: scoring pipeline and benign controls.
+- evidence/scoring/: scoring pipeline and benign controls (William Zhang; AI-assisted). RUBRIC.md (draft v1, not yet team-reviewed or frozen), benign_controls.jsonl (20 controls), score_tools.py (validate, agreement, finalize, benign, selftest; selftest uses synthetic data only), scores_wjz.csv and scores_nate.csv (two members' labels for the 8 pilot attempts), adjudication.csv (header only; no disagreements), final.csv, benign_report.json, PILOT_AUDIT_PREP.md (assistant notes, not scores). Pilot agreement: same label on 8/8 rows, Cohen's kappa 1.0. This checks the procedure only: n=1 per condition, 3 of 8 attempts unscorable, and the scorers were not fully independent (both saw conditions; rubric guidance was shared with them after initial labels). No attack-success or defense-effect claim.
 - SOURCES.md: consulted research and proposal.
 - SHA256SUMS: checksums for packaged files other than this manifest.
 
